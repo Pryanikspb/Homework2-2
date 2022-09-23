@@ -5,10 +5,18 @@ public abstract class Transport {
     public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
+
+
     }
 
-    public abstract void updateTyre();
+    public void updateTyre() {
+        for (int i = 0; i <getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
+    };
     public abstract void service();
+
+
 
     public String getModelName() {
         return modelName;

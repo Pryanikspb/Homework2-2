@@ -5,11 +5,6 @@ public class Bike extends Transport{
     }
 
     @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку мотоцикла");
-    }
-
-    @Override
     public void service(){
         updateTyre();
         checkEngine();

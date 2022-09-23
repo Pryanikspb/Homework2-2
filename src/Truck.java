@@ -5,11 +5,6 @@ public class Truck extends Transport {
     }
 
     @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку грузовика");
-    }
-
-    @Override
     public void service() {
         updateTyre();
         checkEngine();
