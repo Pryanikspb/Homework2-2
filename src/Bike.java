@@ -1,6 +1,6 @@
-public class Car extends Transport{
+public class Bike extends Transport{
 
-    public Car(String modelName, int wheelsCount) {
+    public Bike(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 
@@ -11,6 +11,6 @@ public class Car extends Transport{
     }
 
     public void checkEngine() {
-        System.out.println("Проверяем двигатель автомобиля");
+        System.out.println("Проверяем двигатель мотоцикла");
     }
 }
